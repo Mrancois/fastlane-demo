@@ -414,6 +414,7 @@
 				861351F91E1F875800D901D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		861351FA1E1F875800D901D7 /* Build configuration list for PBXNativeTarget "FrDemoICTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				861351FC1E1F875800D901D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

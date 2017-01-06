@@ -10,6 +10,11 @@ sudo gem install fastlane
 fastlane bonjour
 ```
 
+### deploy
+```
+fastlane deploy
+```
+
 
 ----
 
