@@ -15,6 +15,7 @@ lane :deploy do
       repository_name: "mrancois/fastlane-demo",
       name: version, #nom de la version sur Github
       tag_name: "v#{version}",
+      api_token: ENV["GITHUB_TOKEN"],
       description: changelog_from_git_commits(),
       commitish: "master"
     )

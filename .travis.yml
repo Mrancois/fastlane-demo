@@ -7,12 +7,12 @@ branches:
   only:
     - develop
     - master
-  notifications:
-    email: false
-  before_install:
-    - gem install bundler
-    - bundle install
-  script:
-    - bundle exec fastlane bonjour
-  after_success:
-    - bundle exec fastlane deploy
+notifications:
+  email: false
+before_install:
+  - gem install bundler
+  - bundle install
+script:
+  - bundle exec fastlane bonjour
+after_success:
+  - bundle exec fastlane deploy
