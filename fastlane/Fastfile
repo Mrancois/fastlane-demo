@@ -1,0 +1,9 @@
+lane :bonjour do
+
+  # if UI.confirm("Sure dude ?")
+  #  UI.success "Cooool !"
+  # else
+  #  UI.error "Hmm ?"
+  # end
+  scan
+end
